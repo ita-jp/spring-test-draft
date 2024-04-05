@@ -30,6 +30,7 @@
 					"source.organizeImports": "always"
 				},
 				"java.import.gradle.enabled": true,
+				"java.server.launchMode": "Standard"
 			}
 		}
 	}
