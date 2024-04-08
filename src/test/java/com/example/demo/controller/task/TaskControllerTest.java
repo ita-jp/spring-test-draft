@@ -39,7 +39,7 @@ public class TaskControllerTest {
         // ## Act ##
         var result = mvc.perform(get("/tasks/" + taskId));
 
-        // ## Assert $$
+        // ## Assert ##
         result
         .andExpect(status().isOk())
         .andExpect(jsonPath("$.id").value(entity.id()))
